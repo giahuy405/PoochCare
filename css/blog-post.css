@@ -1,0 +1,20 @@
+:root {
+    --footer-color:#111111;
+    --bg-color: #151515;
+    --primary-color: #189A46;
+    --heading-color: #ddd;
+    --font-color: #afafaf;
+    --border-color:#212529;
+    --secondary-color:#f53626;
+    --bg-light: rgba(147, 107, 232, 0.05);
+    --bg-dark-about:#222;
+    --button-hover:#116E32;
+}
+.dark .blog__posts{
+    background-color: var(--bg-dark-about);
+}
+.blog__items .blog__item{
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: black;
+}

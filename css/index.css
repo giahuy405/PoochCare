@@ -927,7 +927,9 @@ footer{
     .testimonial__quote span{
         font-size: 17px;
     }
-
+    .about__top{
+        width: 90%;
+    }
 
      
 }
