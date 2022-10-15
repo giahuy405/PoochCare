@@ -794,16 +794,23 @@ header {
     font-size: 20px;
 }
 
+ 
 .testimonial__person {
     display: flex;
     margin-top: 15px;
     align-items: center;
+    justify-content: start;
 }
 
-.testimonial__pic img {
+.testimonial__pic  {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    overflow: hidden;
+}
+.testimonial__pic img{
+    width: 100%;
+    height: 100%;
 }
 
 .testimonial__name {
@@ -967,6 +974,13 @@ footer {
 @media screen and (max-width:1199.98px) {}
 
 @media screen and (max-width:991.98px) {
+    #navbarCare .dropdown-menu{
+    padding-right: 0;
+    margin-top: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-80px);
+    }
 
     #carouselCare .carousel-caption h5 {
         width: 100%;
@@ -1113,6 +1127,7 @@ footer {
     .about__top {
         width: 90%;
     }
+    
 
 
 }
